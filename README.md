@@ -35,6 +35,7 @@ require 'sciruby'
 # Scientific gems are auto loaded, you can use them directly!
 plot = Nyaplot::Plot.new
 sc = plot.add(:scatter, [0,1,2,3,4], [-1,2,-3,4,-5])
+plot.show
 ~~~
 
 Take a look at [gems.yml](gems.yml) or the [list of gems](http://gems.sciruby.com) for interesting gems which are included in `sciruby-full`.
